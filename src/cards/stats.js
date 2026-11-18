@@ -240,7 +240,7 @@ const getTotalCommitsYearLabel = (include_all_commits, commits_year, i18n) =>
     ? ""
     : commits_year
       ? ` (${commits_year})`
-      : ` (${i18n.t("wakatimecard.lastyear")})`;
+      :"";
 
 /**
  * @typedef {import('../fetchers/types').StatsData} StatsData
